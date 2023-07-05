@@ -1,8 +1,6 @@
 " -----------------------------------------------------------------------------
-" Name:         Tokyo Night
+" Name:         Tokyo Night Noir
 " Description:  A clean, dark Vim theme that celebrates the lights of downtown Tokyo at night (Based on the VS Code version of the theme)
-" Author:       Ghifari Taqiuddin <mghifarit53@gmail.com>
-" Website:      https://github.com/ghifarit53/tokyonight.vim/
 " License:      MIT
 " -----------------------------------------------------------------------------
 
@@ -33,9 +31,9 @@ let s:configuration.current_word = get(g:, 'tokyonight_current_word', get(g:, 't
 if s:configuration.style ==# 'night'
   let s:palette = {
         \ 'black':      ['#06080a',   '237',  'DarkGrey'],
-        \ 'bg0':        ['#1a1b26',   '235',  'Black'],
-        \ 'bg1':        ['#232433',   '236',  'DarkGrey'],
-        \ 'bg2':        ['#2a2b3d',   '236',  'DarkGrey'],
+        \ 'bg0':        ['#0d1117',   '235',  'Black'],
+        \ 'bg1':        ['#0d1117',   '235',  'Black'],
+        \ 'bg2':        ['#0d1117',   '235',  'Black'],
         \ 'bg3':        ['#32344a',   '237',  'DarkGrey'],
         \ 'bg4':        ['#3b3d57',   '237',  'Grey'],
         \ 'bg_red':     ['#ff7a93',   '203',  'Red'],
@@ -57,9 +55,9 @@ if s:configuration.style ==# 'night'
 elseif s:configuration.style ==# 'storm'
   let s:palette = {
         \ 'black':      ['#06080a',   '237',  'DarkGrey'],
-        \ 'bg0':        ['#24283b',   '235',  'Black'],
-        \ 'bg1':        ['#282d42',   '236',  'DarkGrey'],
-        \ 'bg2':        ['#2f344d',   '236',  'DarkGrey'],
+        \ 'bg0':        ['#0d1117',   '235',  'Black'],
+        \ 'bg1':        ['#0d1117',   '235',  'Black'],
+        \ 'bg2':        ['#0d1117',   '235',  'Black'],
         \ 'bg3':        ['#333954',   '237',  'DarkGrey'],
         \ 'bg4':        ['#3a405e',   '237',  'Grey'],
         \ 'bg_red':     ['#ff7a93',   '203',  'Red'],
